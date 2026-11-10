@@ -1,0 +1,35 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Private worker credentials
+credentials/
+
+# Generated cryptographic artifacts
+artifacts/
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db

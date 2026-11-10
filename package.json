@@ -1,0 +1,19 @@
+{
+  "name": "zero-knowledge-merkle-membership-proof-crypto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/main.js",
+    "verify": "node src/verifier.js",
+    "register": "node src/registration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "o1js": "^3.1.0"
+  }
+}
